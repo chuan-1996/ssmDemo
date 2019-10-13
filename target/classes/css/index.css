@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0
+}
+#header, .footer {
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 9; }
+
+html, body {
+    background: #f1f2f3;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    font-family: "Microsoft YaHei",serif;
+    padding-top: 20px; }
+
+#header {
+    height: 40px;
+    padding: 0 0px;
+    color: black;
+    background: white;
+    top: 0px; }
+
+.footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    height: 60px;
+    line-height: 30px;
+    font-size: 14px;
+    bottom: 0px; }
+.footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.footer a:hover{
+    color: #DB212E;
+    text-decoration: underline;
+}
+
+#header a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tab{
+    width: 100%;
+    border:solid #333;
+    border-width:1px 0px 0px 1px;
+    font-size: 13px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#tab tbody tr th:hover,#tab tbody tr td:hover{
+    background-color: #eee;
+}
+#tab tbody tr th{
+    padding:3px 5px;
+
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    border:solid #333;
+    border-width:0px 1px 1px 0px;
+    text-align: center;
+}
+#tab tbody tr td{
+     padding:3px 5px;
+     height: 20px;
+     line-height: 20px;
+     background-color: #fff;
+     border:solid #333;
+     border-width:0px 1px 1px 0px;
+     text-align: center;
+ }
